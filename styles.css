@@ -1,0 +1,32 @@
+body {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    min-height: calc(100vh - 50px);
+}
+
+.wrapper {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.logo{
+    float: left;
+}
+
+.product {
+    float: right;
+}
