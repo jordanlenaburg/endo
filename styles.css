@@ -1,7 +1,6 @@
 body {
-    background: url(images/background.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
+    background: linear-gradient(#003257, #00AEEF);
+    height: 100vh;
     margin: auto;
     position: relative;
 }
@@ -12,33 +11,69 @@ footer {
     width: 100%;
 }
 
+.banner {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.main-content {
+    background: url(images/background.jpg) no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.main-content-overlay {
+    height: 60vh;
+    width: 100%;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, .6);
+}
+
 .nav-link {
     font-size: 18px;
     color: aliceblue;
+}
+
+.nav-logo {
+    width: 75px;
 }
 
 .content {
     position: absolute;
     width: 100%;
     margin: auto;
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 95px);
 }
 
 .wrapper {
     width: 100%;
-    background-color: aliceblue;
     position: relative;
-    height: 15vh;
 }
-
-/*.logo{*/
-    /*width: 50%;*/
-/*}*/
-
-/*.product {*/
-    /*width: 50%;*/
-/*}*/
 
 .foot-image {
     width: 25%;
+}
+
+.home-message {
+    color: white;
+    font-size: 4vh;
+}
+
+.bigger {
+    font-size: 6vh;
+}
+
+.order-button {
+    background-color: transparent;
+    border-radius: 35px;
+    font-size: 4vh;
+    color: white;
+    border: solid 5px white;
 }

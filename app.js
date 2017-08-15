@@ -7,5 +7,9 @@ app.config(["$routeProvider", function($routeProvider) {
             templateUrl: "components/home.html",
             controller: "homeCtrl"
         })
+        .otherwise({
+            redirectTo: "/home"
+            }
+        )
 
 }]);
