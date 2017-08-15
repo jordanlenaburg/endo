@@ -31,15 +31,13 @@ footer {
     height: 15vh;
 }
 
-.logo{
-    position: absolute;
-    left: 0;
-}
+/*.logo{*/
+    /*width: 50%;*/
+/*}*/
 
-.product {
-    position: absolute;
-    right: 0;
-}
+/*.product {*/
+    /*width: 50%;*/
+/*}*/
 
 .foot-image {
     width: 25%;
