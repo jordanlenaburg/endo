@@ -116,4 +116,5 @@ footer {
     border: solid 5px white;
     margin-top: 10%;
     font-family: gotham;
+    z-index: 5 !important;
 }
